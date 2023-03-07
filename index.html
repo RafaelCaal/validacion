@@ -2,36 +2,36 @@
 <html>
     <head>
         Expresiones Regulares
+        <link rel="stylesheet" href="styles.css"/> 
     </head>
     <body>
         <form id="formulario-registro">
-            <label></label>
             <br>
             <label for = "nombre-registro">Nombre de Usuario</label>
-            <input type="text" id="nombre-registro" required/><br>
+            <input type="text" id="nombre-registro" required/>
             <label for = "email-registro">Correo electronico</label>
-            <input type="text" id="email-registro" required/><br>
+            <input type="text" id="email-registro" required/>
             <label for = "pass-registro">Password</label>
-            <input type="text" id="pass-registro" required/><br>            
+            <input type="password" id="pass-registro" required/>            
             <label for = "fechanac-registro">Fecha de Nacimiento</label>
-            <input type="date" id="fechanac-registro" required/><br><br>
+            <input type="date" id="fechanac-registro" required/>
+            <br><br>
             <input type="submit" value="registrarse"/>
 
             <!-- etiquetas de error -->
-            <br><br>
-            <div></div>
-            <label type="text" id="error-mayuscula-usuario"></label><div></div>
-            <label type="text" id="error-minuscula-usuario"></label><div></div>
-            <label type="text" id="error-numero-usuario"></label><div></div>
-            <label type="text" id="error-espacio-usuario"></label><div></div>
-            <label type="text" id="error-tamano-usuario"></label><div></div>
-            <label type="text" id="error-email"></label><div></div>
-            <label type="text" id="error-mayuscula-pass"></label><div></div>
-            <label type="text" id="error-minuscula-pass"></label><div></div>
-            <label type="text" id="error-numero-pass"></label><div></div>
-            <label type="text" id="error-espacio-pass"></label><div></div>
-            <label type="text" id="error-tamano-pass"></label><div></div>
-            <label type="text" id="error-menor-fdn"></label><div></div>
+            <br>
+            <label type="text" id="error-mayuscula-usuario"></label>
+            <label type="text" id="error-minuscula-usuario"></label>
+            <label type="text" id="error-numero-usuario"></label>
+            <label type="text" id="error-espacio-usuario"></label>
+            <label type="text" id="error-tamano-usuario"></label>
+            <label type="text" id="error-email"></label>
+            <label type="text" id="error-mayuscula-pass"></label>
+            <label type="text" id="error-minuscula-pass"></label>
+            <label type="text" id="error-numero-pass"></label>
+            <label type="text" id="error-espacio-pass"></label>
+            <label type="text" id="error-tamano-pass"></label>
+            <label type="text" id="error-menor-fdn"></label>
         </form>
         <script type="text/javascript" src="index.js"></script>
     </body>

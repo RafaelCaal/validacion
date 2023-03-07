@@ -1,0 +1,18 @@
+form{
+    text-align: left;
+
+}
+
+label{
+    float: left; 
+    clear: both;   
+}
+
+input[type="text"], input[type="password"], input[type="date"]{
+    float: right;
+}
+
+input[type="submit"]{
+    float: right;
+    clear: both;
+}
